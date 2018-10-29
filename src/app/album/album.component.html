@@ -1,0 +1,31 @@
+<aside class="sidebar">
+    <div class="sidebar-inner">
+        <div class="album-thumb">
+            <img src="./src/app/img/album-cover.jpg" class="album-thumb__pic">
+        </div>
+    </div>
+</aside>
+<div class="content">
+    <h2 class="album-title"><a href="">Juicy J</a> - Rubberband Bussines</h2>
+    <div class="album-info">
+        <div class="album-info__item">
+            <span>Год:</span><span>2017</span>
+        </div>
+        <div class="album-info__item">
+            <span>Лейбл:</span><span>Taylor Gang/Atlantic</span>
+        </div>
+        <div class="album-info__item">
+            <span>Жанр:</span><span>Rap/Trap</span>
+        </div>
+    </div>
+    <div class="tracklist">
+        <single-track *ngFor="let track of tracklist"></single-track>
+    </div>
+    <div class="related-albums">
+        <div class="related-albums-list">
+            <div class="related-albums-item">
+
+            </div>
+        </div>
+    </div>
+</div>

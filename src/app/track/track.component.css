@@ -1,0 +1,27 @@
+.track {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, helvetica, sans-serif;
+    padding: 10px 8px;
+}
+
+.track:hover {
+    border: 2px solid #ed0000;
+}
+
+.track__left {
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.track__num {
+    width: 7%;
+    padding-right: 10px;
+}
+
+.track__name {
+    width: 40%;
+    padding-right: 50px;
+}
